@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: SQL_05_INSERT
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: SQL_05_INSERT
+  language: 3
+  topic: INSERT
+  difficulty: 0
+  questionType: 2
+  questionText: Type the missing keyword to add a new clue to the clues table.
+  code: 'Table: clues
+
+    +----+----------+--------+
+
+    | id | item     | room  
+    |
+
+    +----+----------+--------+
+
+    |  1 | Backpack | Hall   |
+
+    |  2 |
+    Note     | Office |
+
+    |  3 | Map      | Hall   |
+
+    +----+----------+--------+
+
+
+    INSERT
+    ___ clues (item, room)
+
+    VALUES (''Flashlight'', ''Garage'');'
+  answerFormat: 1
+  choices: []
+  correctChoiceIndex: 0
+  monospaceChoices: 0
+  acceptedAnswers:
+  - INTO
+  caseSensitive: 0
+  explanation: New rows are added with  INSERT INTO table (columns) VALUES (values); 
+    The values must be in the same order as the column list.
+  hint: 'INSERT ____ clues: the missing word means "inside".'

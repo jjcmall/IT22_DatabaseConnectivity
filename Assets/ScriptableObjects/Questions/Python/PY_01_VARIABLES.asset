@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: PY_01_VARIABLES
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: PY_01_VARIABLES
+  language: 1
+  topic: Variables
+  difficulty: 0
+  questionType: 1
+  questionText: What does this code print?
+  code: 'name = "Sam"
+
+    name = "Alex"
+
+    print(name)'
+  answerFormat: 0
+  choices:
+  - Sam
+  - Alex
+  - name
+  - Sam Alex
+  correctChoiceIndex: 1
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: A variable only remembers its latest value. name is set to "Sam" and
+    then reassigned to "Alex", so print(name) shows Alex.
+  hint: If a variable is given a new value, what happens to the old one?

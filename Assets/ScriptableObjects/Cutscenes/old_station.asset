@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79daf0bfae3ee4f41a6592398330abc6, type: 3}
+  m_Name: old_station
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Cutscenes.CutsceneData
+  id: old_station
+  displayName: 5. Old Station
+  skippable: 1
+  steps:
+  - type: 9
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 6
+    waitForInput: 0
+  - type: 7
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 3
+    sfx: 0
+    waitForInput: 0
+  - type: 4
+    dialogue: {fileID: 0}
+    duration: 0.8
+    position: {x: 0, y: 0}
+    zoom: 6.2
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 3
+    dialogue: {fileID: 0}
+    duration: 1.8
+    position: {x: -6.5, y: 0.5}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 0
+    dialogue: {fileID: 11400000, guid: 4ecae3fdbf4ebe44a9126e36c71b81fe, type: 2}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 5
+    dialogue: {fileID: 0}
+    duration: 1.2
+    position: {x: 0, y: 0}
+    zoom: 4
+    target: StationGate
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 11
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 21300000, guid: 7c0fe71493dc2294d92db19b10fa3456, type: 3}
+    text: 'FINAL CHECKPOINT REACHED.
+
+      VISITOR SAFE IN CONTROL ROOM.
+
+      SOLVE
+      THE FINAL LOCKS TO OPEN THE DOOR.'
+    music: 0
+    sfx: 0
+    waitForInput: 1
+  - type: 12
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 0
+    dialogue: {fileID: 11400000, guid: 2abbd8d983f13c0429cb1b242d975e4f, type: 2}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 6
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0

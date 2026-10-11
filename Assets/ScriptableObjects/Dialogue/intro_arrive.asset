@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2450fc7c3abd5554483716d545c4df34, type: 3}
+  m_Name: intro_arrive
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Dialogue.DialogueData
+  id: intro_arrive
+  lines:
+  - speaker: 
+    nameColor: {r: 0.13333334, g: 0.827451, b: 0.93333334, a: 1}
+    portrait: {fileID: 0}
+    side: 0
+    text: Tuesday, 4:10 PM. The school bus rumbles away down Maple Street.
+    background: {fileID: 0}
+  - speaker: Alex
+    nameColor: {r: 0.13333334, g: 0.827451, b: 0.93333334, a: 1}
+    portrait: {fileID: 21300000, guid: 413a18e5accaf4940bfb67e65babd266, type: 3}
+    side: 0
+    text: I'm home! Sam, if you ate the last of the crackers again, I'm telling Mom!
+    background: {fileID: 0}
+  - speaker: 
+    nameColor: {r: 0.13333334, g: 0.827451, b: 0.93333334, a: 1}
+    portrait: {fileID: 0}
+    side: 0
+    text: No answer. No footsteps on the stairs. No cartoon noise from the TV.
+    background: {fileID: 0}

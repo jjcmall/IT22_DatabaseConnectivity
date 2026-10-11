@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: SQL_04_AND_OR
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: SQL_04_AND_OR
+  language: 3
+  topic: AND / OR
+  difficulty: 1
+  questionType: 0
+  questionText: Which location(s) does this query return?
+  code: 'Table: sightings
+
+    +----+----------+-------+---------+
+
+    | id | location
+    | time  | witness |
+
+    +----+----------+-------+---------+
+
+    |  1 | Park    
+    | 15:10 | Mia     |
+
+    |  2 | Library  | 15:40 | Leo     |
+
+    |  3 | Bus
+    Stop | 16:05 | Ana     |
+
+    |  4 | Arcade   | 15:25 | Leo     |
+
+    +----+----------+-------+---------+
+
+
+    SELECT
+    location FROM sightings
+
+    WHERE witness = ''Leo'' AND time > ''15:30'';'
+  answerFormat: 0
+  choices:
+  - Library
+  - Arcade
+  - Library and Arcade
+  - Library, Bus Stop and Arcade
+  correctChoiceIndex: 0
+  monospaceChoices: 0
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: AND keeps a row only when both conditions are true. Leo made two sightings,
+    but only Library (15:40) is after 15:30. With OR instead, Library, Bus Stop and
+    Arcade would all match.
+  hint: With AND, a row needs both conditions to be true at the same time.

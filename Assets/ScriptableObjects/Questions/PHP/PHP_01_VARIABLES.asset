@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: PHP_01_VARIABLES
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: PHP_01_VARIABLES
+  language: 2
+  topic: Variables
+  difficulty: 0
+  questionType: 3
+  questionText: This PHP code causes an error. What is wrong?
+  code: '<?php
+
+    name = "Alex";
+
+    echo $name;
+
+    ?>'
+  answerFormat: 0
+  choices:
+  - 'The variable needs a $ sign:  $name = "Alex";'
+  - echo must be changed to print
+  - Strings must use single quotes
+  - The semicolons must be removed
+  correctChoiceIndex: 0
+  monospaceChoices: 0
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: Every PHP variable starts with a dollar sign. name = "Alex"; is not
+    valid PHP, but  $name = "Alex";  is, and then echo $name outputs Alex.
+  hint: Compare how the variable is written on the two lines.

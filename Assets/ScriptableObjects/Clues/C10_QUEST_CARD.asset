@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05d4e5f35451f546b502b7411f86a00, type: 3}
+  m_Name: C10_QUEST_CARD
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Clues.ClueData
+  id: C10_QUEST_CARD
+  title: Torn Quest Card
+  description: 'Half of a Code Quest card stuck behind the dumpster: "LEVEL 3 - THE
+    WAREHOUSE. Solve the lock to continue!" On the back, in Sam''s writing: "Alex
+    is going to be so jealous."'
+  location: Maple Street
+  order: 102
+  relatedChallenge: 
+  storySignificance: Sam came this way on purpose, following the game's levels in
+    order.

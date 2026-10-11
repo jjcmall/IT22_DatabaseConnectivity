@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2450fc7c3abd5554483716d545c4df34, type: 3}
+  m_Name: intro_computer
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Dialogue.DialogueData
+  id: intro_computer
+  lines:
+  - speaker: 
+    nameColor: {r: 0.13333334, g: 0.827451, b: 0.93333334, a: 1}
+    portrait: {fileID: 0}
+    side: 0
+    text: Through the little window in the hallway door, Alex can see the old family
+      computer. It's on, and lines of code are scrolling across the screen.
+    background: {fileID: 0}
+  - speaker: Alex
+    nameColor: {r: 0.13333334, g: 0.827451, b: 0.93333334, a: 1}
+    portrait: {fileID: 21300000, guid: 413a18e5accaf4940bfb67e65babd266, type: 3}
+    side: 0
+    text: That's {LANGUAGE}. Somebody left this running on purpose.
+    background: {fileID: 0}
+  - speaker: SENTINEL
+    nameColor: {r: 0.654902, g: 0.54509807, b: 0.98039216, a: 1}
+    portrait: {fileID: 21300000, guid: 99ffee20feeb641409c012c0e07dfdf5, type: 3}
+    side: 1
+    text: VISITOR DETECTED. CHECKPOINT 1 IS LOCKED. SOLVE THE CODE TO CONTINUE.
+    background: {fileID: 0}
+  - speaker: Alex
+    nameColor: {r: 0.13333334, g: 0.827451, b: 0.93333334, a: 1}
+    portrait: {fileID: 21300000, guid: 413a18e5accaf4940bfb67e65babd266, type: 3}
+    side: 0
+    text: Checkpoint? Is this some kind of game? ...And since when does our hallway
+      door have a keypad?
+    background: {fileID: 0}

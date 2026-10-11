@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05d4e5f35451f546b502b7411f86a00, type: 3}
+  m_Name: C07_FACILITY_MAP
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Clues.ClueData
+  id: C07_FACILITY_MAP
+  title: Facility Map
+  description: A map of the tunnels marks the Old Station. Someone drew a smiley
+    face next to it in marker - just like the sibling always does.
+  location: Riverside Tech Facility
+  order: 7
+  relatedChallenge: 
+  storySignificance: The sibling is heading for the Old Station - and was in a good
+    mood when they drew this.

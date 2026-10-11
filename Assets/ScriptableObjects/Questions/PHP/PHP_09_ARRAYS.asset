@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: PHP_09_ARRAYS
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: PHP_09_ARRAYS
+  language: 2
+  topic: Arrays
+  difficulty: 0
+  questionType: 4
+  questionText: Which line correctly creates an array of three places?
+  code: 
+  answerFormat: 0
+  choices:
+  - $places = ["park", "library", "arcade"];
+  - $places = "park", "library", "arcade";
+  - $places = {"park", "library", "arcade"};
+  - places = ["park", "library", "arcade"];
+  correctChoiceIndex: 0
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: PHP arrays are written with square brackets [ ] (or array(...)). Option
+    B is not an array, curly braces { } don't create arrays, and option D is missing
+    the $ in front of the variable name.
+  hint: Arrays use square brackets, and variables always need a $.

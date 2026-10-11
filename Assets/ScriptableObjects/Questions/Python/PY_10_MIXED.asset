@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: PY_10_MIXED
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: PY_10_MIXED
+  language: 1
+  topic: Mixed
+  difficulty: 1
+  questionType: 4
+  questionText: Which code prints only the even numbers in nums?
+  code: 'nums = [3, 4, 7, 10]'
+  answerFormat: 0
+  choices:
+  - "for n in nums:\n    if n % 2 == 0:\n        print(n)"
+  - "for n in nums:\n    if n / 2 == 0:\n        print(n)"
+  - "for n in nums:\n    if n % 2 == 1:\n        print(n)"
+  - "for n in nums\n    if n % 2 == 0:\n        print(n)"
+  correctChoiceIndex: 0
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: n % 2 is the remainder after dividing by 2, and even numbers have
+    remainder 0, so option A prints 4 and 10. B divides instead, C picks the odd
+    numbers, and D is missing the colon after the for line.
+  hint: The % operator gives the remainder of a division.

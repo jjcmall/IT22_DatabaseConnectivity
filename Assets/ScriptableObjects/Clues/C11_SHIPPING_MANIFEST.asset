@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05d4e5f35451f546b502b7411f86a00, type: 3}
+  m_Name: C11_SHIPPING_MANIFEST
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Clues.ClueData
+  id: C11_SHIPPING_MANIFEST
+  title: Shipping Manifest
+  description: A clipboard on the top shelf lists old equipment sent to the Riverside
+    Tech Facility, including "SENTINEL security core (test unit)".
+  location: Warehouse 7
+  order: 103
+  relatedChallenge: 
+  storySignificance: It explains how SENTINEL ended up powering the locks across
+    town.

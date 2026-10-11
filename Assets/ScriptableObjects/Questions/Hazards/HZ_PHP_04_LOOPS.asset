@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: HZ_PHP_04_LOOPS
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: HZ_PHP_04_LOOPS
+  language: 2
+  topic: Loops
+  difficulty: 0
+  questionType: 1
+  questionText: What does this loop output?
+  code: "<?php\nfor ($i = 1; $i <= 3; $i++) {\n    echo $i;\n}\n?>"
+  answerFormat: 0
+  choices:
+  - 123
+  - 0123
+  - 1234
+  - 3
+  correctChoiceIndex: 0
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: '$i starts at 1 and the loop runs while $i <= 3, echoing 1, 2 and
+    3 with no spaces between them: 123.'
+  hint: Check the starting value and the <= condition.

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: HZ_PHP_01_VARIABLES
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: HZ_PHP_01_VARIABLES
+  language: 2
+  topic: Variables
+  difficulty: 0
+  questionType: 1
+  questionText: The laser grid's counter changes. What does this code output?
+  code: '<?php
+
+    $lasers = 3;
+
+    $lasers = $lasers + 2;
+
+    echo $lasers;
+
+    ?>'
+  answerFormat: 0
+  choices:
+  - 3
+  - 5
+  - 32
+  - $lasers
+  correctChoiceIndex: 1
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: $lasers starts at 3. The right side, $lasers + 2, is worked out first
+    (5) and stored back in $lasers, so echo shows 5.
+  hint: Work out the right side of the = first, then store it in the variable.

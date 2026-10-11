@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79daf0bfae3ee4f41a6592398330abc6, type: 3}
+  m_Name: ending
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Cutscenes.CutsceneData
+  id: ending
+  displayName: 7. Ending - Found
+  skippable: 1
+  steps:
+  - type: 7
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 5
+    sfx: 0
+    waitForInput: 0
+  - type: 5
+    dialogue: {fileID: 0}
+    duration: 1.4
+    position: {x: 0, y: 0}
+    zoom: 3.2
+    target: Sibling
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 0
+    dialogue: {fileID: 11400000, guid: 95f52c3ea740cb145880e9ec69464b81, type: 2}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 1
+    dialogue: {fileID: 0}
+    duration: 0.4
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 13
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 21300000, guid: e90e9b9255f4c894fb5a3cd48c551b5e, type: 3}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 2
+    dialogue: {fileID: 0}
+    duration: 0.4
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 0
+    dialogue: {fileID: 11400000, guid: 774437c4d82f2464397578faaf791539, type: 2}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 1
+    dialogue: {fileID: 0}
+    duration: 1.2
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 18
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 09_Ending
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0

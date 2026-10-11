@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79daf0bfae3ee4f41a6592398330abc6, type: 3}
+  m_Name: final_clue
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Cutscenes.CutsceneData
+  id: final_clue
+  displayName: 6. Final Clue
+  skippable: 1
+  steps:
+  - type: 9
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 6
+    waitForInput: 0
+  - type: 5
+    dialogue: {fileID: 0}
+    duration: 0.9
+    position: {x: 0, y: 0}
+    zoom: 3.8
+    target: RouteDisplay
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 11
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 21300000, guid: 431a8446b8e66a14781665d5557eb014, type: 3}
+    text: 'ROUTE:  OLD STATION  >>  SERVICE TUNNEL  >>  SENTINEL CONTROL ROOM'
+    music: 0
+    sfx: 0
+    waitForInput: 1
+  - type: 12
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 0
+    dialogue: {fileID: 11400000, guid: 1b1d9386995b54848b10f4c8acf01eea, type: 2}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 5
+    dialogue: {fileID: 0}
+    duration: 1.4
+    position: {x: 0, y: 0}
+    zoom: 4.4
+    target: ToControlRoom
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 9
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 4
+    waitForInput: 0
+  - type: 0
+    dialogue: {fileID: 11400000, guid: bd060b2ee3cf3be499a7e0e6caf20062, type: 2}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 6
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0

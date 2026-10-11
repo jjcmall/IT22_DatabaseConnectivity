@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2450fc7c3abd5554483716d545c4df34, type: 3}
+  m_Name: final_clue_2
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Dialogue.DialogueData
+  id: final_clue_2
+  lines:
+  - speaker: Alex
+    nameColor: {r: 0.13333334, g: 0.827451, b: 0.93333334, a: 1}
+    portrait: {fileID: 21300000, guid: 413a18e5accaf4940bfb67e65babd266, type: 3}
+    side: 0
+    text: Hang on, Sam. I'm almost there.
+    background: {fileID: 0}
+  - speaker: 
+    nameColor: {r: 0.13333334, g: 0.827451, b: 0.93333334, a: 1}
+    portrait: {fileID: 0}
+    side: 0
+    text: Somewhere ahead, a heavy door unlocks with a deep clunk.
+    background: {fileID: 0}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: PHP_08_FUNCTIONS
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: PHP_08_FUNCTIONS
+  language: 2
+  topic: Functions
+  difficulty: 1
+  questionType: 3
+  questionText: This code stops with a "Too few arguments" error. How do you fix
+    it?
+  code: "<?php\nfunction greet($name) {\n    return \"Hi, \" . $name;\n}\necho greet();\n?>"
+  answerFormat: 0
+  choices:
+  - 'Pass a name when calling it:  echo greet("Alex");'
+  - Remove the return keyword
+  - Change the . to a +
+  - Rename the function to Greet
+  correctChoiceIndex: 0
+  monospaceChoices: 0
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: greet() expects one argument, $name, but it was called with none.
+    echo greet("Alex"); passes a name and outputs Hi, Alex.
+  hint: Compare the function definition with the line that calls it.

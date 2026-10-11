@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: PHP_06_BOOLEAN
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: PHP_06_BOOLEAN
+  language: 2
+  topic: Boolean Logic
+  difficulty: 1
+  questionType: 0
+  questionText: What is the value of $safe?
+  code: '<?php
+
+    $hasMap = true;
+
+    $isDark = true;
+
+    $safe = $hasMap ||
+    !$isDark;
+
+    ?>'
+  answerFormat: 0
+  choices:
+  - true
+  - false
+  - null
+  - It causes an error
+  correctChoiceIndex: 0
+  monospaceChoices: 0
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: '|| means OR: the result is true if at least one side is true. $hasMap
+    is true, so $safe is true, even though !$isDark is false.'
+  hint: With OR (||), how many sides need to be true?

@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79daf0bfae3ee4f41a6592398330abc6, type: 3}
+  m_Name: ending_epilogue
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Cutscenes.CutsceneData
+  id: ending_epilogue
+  displayName: 7. Ending - Case Solved
+  skippable: 1
+  steps:
+  - type: 1
+    dialogue: {fileID: 0}
+    duration: 0
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 7
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 5
+    sfx: 0
+    waitForInput: 0
+  - type: 13
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 21300000, guid: 8a4e57eca89debe4089156f4c8be706e, type: 3}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 2
+    dialogue: {fileID: 0}
+    duration: 1.4
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 0
+    dialogue: {fileID: 11400000, guid: d95dbe31dbbd1cb4295d6678e408bfcd, type: 2}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 15
+    dialogue: {fileID: 0}
+    duration: 0
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: '<size=150%><color=#4ADE80>CASE SOLVED</color></size>
+
+      YOU FOLLOWED
+      THE CLUES
+
+      YOU SOLVED THE CODE
+
+      THE CHILD IS SAFE'
+    music: 0
+    sfx: 0
+    waitForInput: 1
+  - type: 16
+    dialogue: {fileID: 0}
+    duration: 0.6
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 1
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 18
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 10_Results
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0

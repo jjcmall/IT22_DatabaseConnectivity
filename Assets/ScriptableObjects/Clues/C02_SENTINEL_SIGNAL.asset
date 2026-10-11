@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05d4e5f35451f546b502b7411f86a00, type: 3}
+  m_Name: C02_SENTINEL_SIGNAL
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Clues.ClueData
+  id: C02_SENTINEL_SIGNAL
+  title: SENTINEL Signal
+  description: 'The family computer is running a program called SENTINEL. Its last
+    log reads: "VISITOR LEFT VIA MAPLE STREET. NEXT CHECKPOINT: THE OLD GATE."'
+  location: Home
+  order: 2
+  relatedChallenge: 
+  storySignificance: SENTINEL is tracking Alex's sibling. The trail continues in
+    the neighborhood.

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: PHP_02_STRINGS
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: PHP_02_STRINGS
+  language: 2
+  topic: Strings
+  difficulty: 0
+  questionType: 1
+  questionText: What does this code output?
+  code: '<?php
+
+    $first = "Code";
+
+    $second = "Escape";
+
+    echo $first .
+    " " . $second;
+
+    ?>'
+  answerFormat: 0
+  choices:
+  - CodeEscape
+  - Code Escape
+  - Code . Escape
+  - $first $second
+  correctChoiceIndex: 1
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: The dot (.) joins strings together in PHP. "Code" . " " . "Escape"
+    becomes "Code Escape", with the space in the middle.
+  hint: The . operator glues strings together, including the " " in the middle.

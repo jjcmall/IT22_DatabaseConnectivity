@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: SQL_07_DELETE
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: SQL_07_DELETE
+  language: 3
+  topic: DELETE
+  difficulty: 0
+  questionType: 4
+  questionText: The Note (id 2) turned out to be a shopping list. Which query removes
+    only that row?
+  code: 'Table: clues
+
+    +----+----------+--------+
+
+    | id | item     | room  
+    |
+
+    +----+----------+--------+
+
+    |  1 | Backpack | Hall   |
+
+    |  2 |
+    Note     | Office |
+
+    |  3 | Map      | Hall   |
+
+    +----+----------+--------+'
+  answerFormat: 0
+  choices:
+  - DELETE FROM clues WHERE id = 2;
+  - DELETE FROM clues;
+  - DELETE id = 2 FROM clues;
+  - REMOVE FROM clues WHERE id = 2;
+  correctChoiceIndex: 0
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: DELETE FROM table WHERE condition; removes only the matching rows.
+    Without WHERE, DELETE FROM clues; would erase every clue! SQL has no REMOVE command.
+  hint: Always pair DELETE with a WHERE clause.

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: PHP_07_LOOPS
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: PHP_07_LOOPS
+  language: 2
+  topic: Loops
+  difficulty: 0
+  questionType: 2
+  questionText: Type the missing keyword so the loop outputs 1 2 3.
+  code: "<?php\n___ ($i = 1; $i <= 3; $i++) {\n    echo $i . \" \";\n}\n?>"
+  answerFormat: 1
+  choices: []
+  correctChoiceIndex: 0
+  monospaceChoices: 0
+  acceptedAnswers:
+  - for
+  caseSensitive: 0
+  explanation: 'A for loop has three parts: a start ($i = 1), a condition ($i <=
+    3) and a step ($i++). It repeats while the condition is true, so it outputs 1
+    2 3.'
+  hint: It's a three-letter loop keyword, followed by (start; condition; step).

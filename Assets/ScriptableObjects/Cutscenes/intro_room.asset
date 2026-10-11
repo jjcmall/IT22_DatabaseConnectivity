@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79daf0bfae3ee4f41a6592398330abc6, type: 3}
+  m_Name: intro_room
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Cutscenes.CutsceneData
+  id: intro_room
+  displayName: 1. Intro - The Keypad
+  skippable: 1
+  steps:
+  - type: 7
+    dialogue: {fileID: 0}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 3
+    sfx: 0
+    waitForInput: 0
+  - type: 10
+    dialogue: {fileID: 0}
+    duration: 0.4
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 5
+    dialogue: {fileID: 0}
+    duration: 1.8
+    position: {x: 0, y: 0}
+    zoom: 4.4
+    target: LockedDoor
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 0
+    dialogue: {fileID: 11400000, guid: 1ca3dc34f42b4c04cbae752367695989, type: 2}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 3
+    dialogue: {fileID: 0}
+    duration: 1.2
+    position: {x: 9.5, y: -1}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 0
+    dialogue: {fileID: 11400000, guid: 4fdfa6a20da48154593b5115ae57b98e, type: 2}
+    duration: 1
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0
+  - type: 6
+    dialogue: {fileID: 0}
+    duration: 1.2
+    position: {x: 0, y: 0}
+    zoom: 0
+    target: 
+    image: {fileID: 0}
+    text: 
+    music: 0
+    sfx: 0
+    waitForInput: 0

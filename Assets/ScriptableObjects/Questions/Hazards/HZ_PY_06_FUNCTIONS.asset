@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: HZ_PY_06_FUNCTIONS
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: HZ_PY_06_FUNCTIONS
+  language: 1
+  topic: Functions
+  difficulty: 1
+  questionType: 2
+  questionText: Type the missing keyword so the function sends the code back to print.
+  code: "def get_code():\n    ___ 4321\n\nprint(get_code())"
+  answerFormat: 1
+  choices: []
+  correctChoiceIndex: 0
+  monospaceChoices: 0
+  acceptedAnswers:
+  - return
+  caseSensitive: 1
+  explanation: return sends a value back to the place that called the function, so
+    print(get_code()) prints 4321.
+  hint: It's the keyword that hands a value back from a function.

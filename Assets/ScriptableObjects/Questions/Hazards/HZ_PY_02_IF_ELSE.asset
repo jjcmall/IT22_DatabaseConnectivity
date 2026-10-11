@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: HZ_PY_02_IF_ELSE
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: HZ_PY_02_IF_ELSE
+  language: 1
+  topic: If / Else
+  difficulty: 0
+  questionType: 1
+  questionText: What does Alex's escape plan print?
+  code: "alarm = True\nif alarm:\n    print(\"Hide!\")\nelse:\n    print(\"Run!\")"
+  answerFormat: 0
+  choices:
+  - Hide!
+  - Run!
+  - Hide! Run!
+  - Nothing is printed
+  correctChoiceIndex: 0
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: alarm is True, so the if block runs and prints Hide!. The else block
+    only runs when the condition is False.
+  hint: Is the condition True or False?

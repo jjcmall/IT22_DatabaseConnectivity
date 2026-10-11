@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: PHP_04_OPERATORS
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: PHP_04_OPERATORS
+  language: 2
+  topic: Operators
+  difficulty: 1
+  questionType: 1
+  questionText: What does this code output?
+  code: '<?php
+
+    $steps = 10;
+
+    $steps += 5;
+
+    $steps = $steps % 4;
+
+    echo
+    $steps;
+
+    ?>'
+  answerFormat: 0
+  choices:
+  - 3
+  - 15
+  - 3.75
+  - 1
+  correctChoiceIndex: 0
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: '$steps += 5 adds 5, so $steps becomes 15. % gives the remainder of
+    a division: 15 divided by 4 is 3 remainder 3, so 15 % 4 is 3.'
+  hint: First add 5, then find the remainder when dividing by 4.

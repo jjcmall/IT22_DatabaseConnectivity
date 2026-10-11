@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: PHP_10_MIXED
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: PHP_10_MIXED
+  language: 2
+  topic: Mixed
+  difficulty: 1
+  questionType: 2
+  questionText: Which keyword fills the blank so the loop outputs every place?
+  code: "<?php\n$places = [\"park\", \"library\", \"arcade\"];\nforeach ($places
+    ___ $place) {\n    echo $place . \"\\n\";\n}\n?>"
+  answerFormat: 0
+  choices:
+  - as
+  - in
+  - of
+  - =>
+  correctChoiceIndex: 0
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: 'PHP''s foreach reads like a sentence: foreach ($places as $place).
+    Python uses in and JavaScript uses of, but PHP uses as.'
+  hint: 'PHP doesn''t use Python''s in here. Read it as: for each of the places,
+    treat it ___ $place.'

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: PHP_05_IF_ELSE
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: PHP_05_IF_ELSE
+  language: 2
+  topic: If / Else
+  difficulty: 0
+  questionType: 4
+  questionText: Which line outputs "Door open" when $code is 42?
+  code: 
+  answerFormat: 0
+  choices:
+  - if ($code == 42) { echo "Door open"; }
+  - if $code == 42 { echo "Door open"; }
+  - 'if ($code == 42) [ echo "Door open"; ]'
+  - if ($code => 42) { echo "Door open"; }
+  correctChoiceIndex: 0
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: PHP puts the condition in round brackets ( ) and the code to run in
+    curly braces { }. == compares values; => is used for array keys, not for comparing.
+  hint: Round brackets around the condition, curly braces around the code.

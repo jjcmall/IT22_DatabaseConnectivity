@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2450fc7c3abd5554483716d545c4df34, type: 3}
+  m_Name: first_clue
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Dialogue.DialogueData
+  id: first_clue
+  lines:
+  - speaker: Alex
+    nameColor: {r: 0.13333334, g: 0.827451, b: 0.93333334, a: 1}
+    portrait: {fileID: 21300000, guid: 413a18e5accaf4940bfb67e65babd266, type: 3}
+    side: 0
+    text: '"Follow the code"? Somebody planned all of this. Somebody knew I''d come
+      looking.'
+    background: {fileID: 0}
+  - speaker: Alex
+    nameColor: {r: 0.13333334, g: 0.827451, b: 0.93333334, a: 1}
+    portrait: {fileID: 21300000, guid: 413a18e5accaf4940bfb67e65babd266, type: 3}
+    side: 0
+    text: Fine. If code is the trail, I'll follow it all the way to you, Sam.
+    background: {fileID: 0}
+  - speaker: 
+    nameColor: {r: 0.13333334, g: 0.827451, b: 0.93333334, a: 1}
+    portrait: {fileID: 0}
+    side: 0
+    text: With a soft click, the hallway door slides open. The family computer hums
+      on the other side.
+    background: {fileID: 0}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: SQL_02_WHERE
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: SQL_02_WHERE
+  language: 3
+  topic: WHERE
+  difficulty: 0
+  questionType: 4
+  questionText: Which query finds the sightings reported by Leo?
+  code: 'Table: sightings
+
+    +----+----------+-------+---------+
+
+    | id | location
+    | time  | witness |
+
+    +----+----------+-------+---------+
+
+    |  1 | Park    
+    | 15:10 | Mia     |
+
+    |  2 | Library  | 15:40 | Leo     |
+
+    |  3 | Bus
+    Stop | 16:05 | Ana     |
+
+    |  4 | Arcade   | 15:25 | Leo     |
+
+    +----+----------+-------+---------+'
+  answerFormat: 0
+  choices:
+  - SELECT * FROM sightings WHERE witness = 'Leo';
+  - SELECT * FROM sightings IF witness = 'Leo';
+  - SELECT Leo FROM sightings;
+  - SELECT * WHERE witness = 'Leo' FROM sightings;
+  correctChoiceIndex: 0
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: WHERE filters rows and comes after FROM. Text values go in single
+    quotes. SQL has no IF clause, and SELECT Leo would look for a column named Leo.
+  hint: The filtering keyword goes after FROM table_name.

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: PY_02_DATA_TYPES
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: PY_02_DATA_TYPES
+  language: 1
+  topic: Data Types
+  difficulty: 0
+  questionType: 0
+  questionText: Which variable holds a string (str)?
+  code: 'a = 42
+
+    b = "42"
+
+    c = 4.2
+
+    d = True'
+  answerFormat: 0
+  choices:
+  - a
+  - b
+  - c
+  - d
+  correctChoiceIndex: 1
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: Text inside quotation marks is a string. b = "42" stores the text
+    "42", not the number. a is an int, c is a float and d is a bool.
+  hint: Look for the value written inside quotation marks.

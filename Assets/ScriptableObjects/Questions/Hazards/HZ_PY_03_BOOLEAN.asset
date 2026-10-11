@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1833b97b4e8284e489c3555d5dace838, type: 3}
+  m_Name: HZ_PY_03_BOOLEAN
+  m_EditorClassIdentifier: Assembly-CSharp::CodeEscape.Programming.QuestionData
+  id: HZ_PY_03_BOOLEAN
+  language: 1
+  topic: Boolean Logic
+  difficulty: 1
+  questionType: 1
+  questionText: Can Alex get through? What does this print?
+  code: 'has_badge = True
+
+    door_open = False
+
+    print(has_badge and not door_open)'
+  answerFormat: 0
+  choices:
+  - True
+  - False
+  - None
+  - An error
+  correctChoiceIndex: 0
+  monospaceChoices: 1
+  acceptedAnswers: []
+  caseSensitive: 1
+  explanation: not door_open turns False into True. Then has_badge and True is True
+    and True, which is True.
+  hint: Do the not first, then the and.
