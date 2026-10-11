@@ -29,7 +29,6 @@ Group number: **IT22**
 | Mode | Keys |
 |---|---|
 | Side view | A / D or Left / Right to walk, W / Up / Space to jump |
-| Top down | WASD or arrow keys to move in eight directions |
 
 Menus can be used with the mouse or keyboard (Esc closes panels).
 
