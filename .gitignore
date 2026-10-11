@@ -73,3 +73,12 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Secrets and credentials (never commit)
+.env
+*.env
+!.env.example
+*.pem
+*.key
+*service-account*.json
+*credentials*.json
