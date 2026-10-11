@@ -85,6 +85,4 @@ If Unity shows a Package Manager error, check that `Packages/manifest.json` list
 - Unity Cloud Save documentation: https://docs.unity.com/ugs/en-us/manual/cloud-save/manual
 - Unity Authentication documentation: https://docs.unity.com/ugs/en-us/manual/authentication/manual/overview
 - Unity Gaming Services overview: https://docs.unity.com/ugs/en-us/manual/overview/manual/unity-gaming-services-home
-## Credits and licence
-- Fonts: JetBrains Mono and Orbitron (SIL Open Font Licence; licence files are in `Assets/Fonts`).
-- Project licence: **[to be decided by the team]**. Third-party art and animation assets keep their own licences.
+
